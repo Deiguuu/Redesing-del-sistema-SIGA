@@ -8,3 +8,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600; /* SemiBold */
 }
+/* Contenedor del login*/
+section {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
