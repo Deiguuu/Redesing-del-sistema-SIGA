@@ -157,3 +157,29 @@ p a:hover {
     font-size: 14px;
 }
 
+/* hacerlo respondon */
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .form-container, .image-container {
+        width: 100%;
+    }
+
+    .image-container {
+        height: 200px;
+    }
+
+    .overlay-text h2 {
+        font-size: 18px;
+    }
+
+    .overlay-text p {
+        font-size: 12px;
+    }
+}
+
+
+
