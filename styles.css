@@ -102,3 +102,17 @@ button:hover {
 .forgot-password:hover {
     text-decoration: underline;
 }
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+p a {
+    color: #7d2ae8;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
