@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #7d2ae8;
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -31,30 +31,57 @@ body {
     align-items: center;
     justify-content: center;
 }
-/* Contenedor del login*/
-section {
-    width: 100%;
-    max-width: 400px; /* Tamaño controlado */
-    background: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
 }
-/*Para que el formulario se vea bonito*/
-.form-container {
-    width: 50%;
-    padding: 20px;
+.input-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;    
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
 }
-section {
+
+.input-container input {
+    background: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    color: #333;
+    font-size: 16px;
+}
+.input-container i {
+    margin-right: 10px;
+    color: #666;
+}
+
+button {
     width: 100%;
-    max-width: 400px; /* Tamaño controlado */
-    background: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
+    padding: 10px;
+    border: none;
+    background: #5c67f2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #4a54e1;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    color: #5c67f2;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
 }
