@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,58 +8,43 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600; /* SemiBold */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #7d2ae8;
-    margin: 0;
 }
 
 .login-container {
     display: flex;
+    width: 800px;
     background: white;
-    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 600px;
-    max-width: 90%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.image-container {
-    flex: 1;
+/* Formulario */
+.form-container {
+    width: 50%;
+    padding: 40px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    position: relative;
 }
 
-.image-container img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-/* Cuadrado transparente morado sobre la imagen */
-.image-container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(125, 42, 232, 0.5); /* Morado con transparencia */
-    border-radius: 10px;
+h2 {
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .input-container {
     display: flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 10px;
+    background: #f3f3f3;
+    padding: 12px;
     margin: 10px 0;
     border-radius: 5px;
-    backdrop-filter: blur(10px);
 }
 
 .input-container input {
@@ -67,41 +52,44 @@ body {
     border: none;
     outline: none;
     flex: 1;
-    color: #333;
     font-size: 16px;
+    color: #333;
 }
 
 .input-container i {
     margin-right: 10px;
-    color: #666;
+    color: #7d2ae8;
 }
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: none;
     background: #7d2ae8;
     color: white;
     border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 button:hover {
-    background: #4a54e1;
+    background: #5c2db9;
 }
 
 .forgot-password {
     display: block;
     text-align: right;
     margin-top: 5px;
-    color: #5c67f2;
+    color: #7d2ae8;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .forgot-password:hover {
     text-decoration: underline;
 }
+
 p {
     text-align: center;
     margin-top: 10px;
@@ -116,6 +104,8 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+
+/* Imagen con overlay */
 .image-container {
     width: 50%;
     position: relative;
@@ -157,7 +147,7 @@ p a:hover {
     font-size: 14px;
 }
 
-/* hacerlo respondon */
+/* Responsivo */
 @media (max-width: 768px) {
     .login-container {
         flex-direction: column;
@@ -180,6 +170,3 @@ p a:hover {
         font-size: 12px;
     }
 }
-
-
-
