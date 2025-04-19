@@ -15,29 +15,29 @@ Bienvenid@ al repositorio oficial del rediseño del sistema académico utilizado
 
 ---
 
-rediseño-sistema-academico/
-├── index.html             ← Página principal / login
-├── views/                 ← Todas las vistas (pantallas/páginas)
-    ├── dashboard.html
-    ├── perfil-docente.html
-    ├── asistencia.html
-    └── evaluaciones.html
-├── components/            ← Fragmentos reutilizables
-    ├── header.html
-    ├── sidebar.html
-    └── footer.html
-├── assets/
-    ├── css/
-        └── styles.css
-    ├── js/
-        ├── main.js
-        └── eventos.js
-    └── img/
-        └── logo.svg
-├── docs/                  ← Wireframes, documentación, actas
-├── README.md
-├── LICENSE
-└── .gitignore
+* rediseño-sistema-academico
+    * `index.html` - Página principal / login
+    * `views/` - Todas las vistas (pantallas/páginas)
+        * `dashboard.html`
+        * `perfil-docente.html`
+        * `asistencia.html`
+        * `evaluaciones.html`
+    * `components/` - Fragmentos reutilizables
+        * `header.html`
+        * `sidebar.html`
+        * `footer.html`
+    * `assets/`
+        * `css/`
+            * `styles.css`
+        * `js/`
+            * `main.js`
+            * `eventos.js`
+        * `img/`
+            * `logo.svg`
+    * `docs/` - Wireframes, documentación, actas
+    * `README.md`
+    * `LICENSE`
+    * `.gitignore`
 
 
  ## 🚀 Instrucciones para correr el proyecto
