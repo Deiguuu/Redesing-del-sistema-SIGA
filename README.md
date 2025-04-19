@@ -16,13 +16,25 @@ Bienvenid@ al repositorio oficial del rediseño del sistema académico utilizado
 ---
 
 📦 rediseño-sistema-academico
-├── index.html
-├── assets
-│   ├── img       → Imágenes y recursos gráficos
-│   ├── css       → Estilos personalizados
-│   └── js        → Scripts y lógica JS
-├── components    → Fragmentos reutilizables de HTML
-├── docs          → Documentación, wireframes, entregables
+├── index.html             ← Página principal / login
+├── views/                 ← Todas las vistas (pantallas/páginas)
+│   ├── dashboard.html
+│   ├── perfil-docente.html
+│   ├── asistencia.html
+│   └── evaluaciones.html
+├── components/            ← Fragmentos reutilizables
+│   ├── header.html
+│   ├── sidebar.html
+│   └── footer.html
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   ├── main.js
+│   │   └── eventos.js
+│   └── img/
+│       └── logo.svg
+├── docs/                  ← Wireframes, documentación, actas
 ├── README.md
 ├── LICENSE
 └── .gitignore
