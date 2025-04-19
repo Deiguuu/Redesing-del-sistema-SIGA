@@ -15,7 +15,7 @@ Bienvenid@ al repositorio oficial del rediseño del sistema académico utilizado
 
 ---
 
-*📦 rediseño-sistema-academico
+* rediseño-sistema-academico
     * `index.html` - Página principal / login
     * `views/` - Todas las vistas (pantallas/páginas)
         * `dashboard.html`
