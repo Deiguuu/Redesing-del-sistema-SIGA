@@ -15,17 +15,18 @@ Bienvenid@ al repositorio oficial del rediseño del sistema académico utilizado
 
 ---
 
-📦 rediseño-sistema-academico
+📦 rediseño-sistema-academico
 ├── index.html
-├── /assets
-│   ├── /img       → Imágenes y recursos gráficos
-│   ├── /css       → Estilos personalizados
-│   └── /js        → Scripts y lógica JS
-├── /components    → Fragmentos reutilizables de HTML
-├── /docs          → Documentación, wireframes, entregables
+├── assets
+│   ├── img       → Imágenes y recursos gráficos
+│   ├── css       → Estilos personalizados
+│   └── js        → Scripts y lógica JS
+├── components    → Fragmentos reutilizables de HTML
+├── docs          → Documentación, wireframes, entregables
 ├── README.md
 ├── LICENSE
 └── .gitignore
+
 
  ---
 
