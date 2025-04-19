@@ -28,8 +28,6 @@ Bienvenid@ al repositorio oficial del rediseño del sistema académico utilizado
 └── .gitignore
 
 
- ---
-
  ## 🚀 Instrucciones para correr el proyecto
 
 1. Clonar el repositorio
